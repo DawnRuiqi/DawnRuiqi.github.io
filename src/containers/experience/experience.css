@@ -1,6 +1,6 @@
 .web__experience {
     display: flex;
-    
+    padding-bottom: 5rem;
 }
 
 .web__experience-content {
@@ -15,17 +15,18 @@
     
 }
 
-.web__experience-content div {
+.lines {
     position: absolute;
     width: 864px;
     left: 424px;
-    top: 730px;
+    top: 998px;
     background: var(--color-header2);
     border: 7px solid var(--color-header2);
     transform: rotate(0.14deg);
 }
 
 .web__experience-content h1 {
+    padding-top: 1rem;
     font-family: var(--font-family);
     font-weight: 800;
     font-size:  62px;
@@ -34,6 +35,7 @@
 }
 
 .web__experience-content h2 {
+    
     width: 703px;
     font-family: var(--font-family);
     font-size: 20px;
@@ -46,20 +48,23 @@
 }
 
 .web__experience-content ul {
-    display: relative;
+    display: none;
     list-style: none;
     
 
 } 
 
-
-
-.web__experience-content h2:hover ul.menu-drop1 {
-    
+.exp1:hover ul.menu-drop1, .exp2:hover ul.menu-drop2 {
+    position: absolute;
     display: block;
     color: white;
     font-family: var(--font-family);
     font-size: 18px;
+}
+
+.exp2 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .menu-drop1 li::before, .menu-drop2 li::before {
@@ -69,9 +74,3 @@
 }
 
 
-.exp2:hover ul.menu-drop2 {
-    display: block;
-    color: white;
-    font-family: var(--font-family);
-    font-size: 18px;
-}

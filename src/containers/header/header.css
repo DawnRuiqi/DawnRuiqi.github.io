@@ -31,8 +31,8 @@
     letter-spacing: -0.04rem;
 }
 
-.web__header-content p,
-.web__header-content h2 {
+.web__header-content p {
+    padding-top: 1rem;
     width: 703px;
     font-family: var(--font-family);
     font-size: 20px;
@@ -43,8 +43,20 @@
     margin-top: 1.5rem;
 }
 
+.web__header-content h2 {
+    padding-top: 5rem;
+    width: 703px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    text-align: justify;
+    color:var(--color-text);
+    
+    margin-top: 1.5rem;
+}
 
 .lang{
+    
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -52,6 +64,7 @@
 
     width: 100%;
     text-align: left;
+    padding-bottom: 10rem;
 }
 
 .lang div {

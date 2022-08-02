@@ -1,0 +1,51 @@
+.web__resume {
+    display: flex;
+    
+    
+}
+
+.web__resume-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+
+
+.web__resume-content h1 {
+   padding-top: 6rem;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size:  62px;
+    line-height: 75px;
+    letter-spacing: -0.04rem;
+}
+
+
+.lines-resume {
+    position:absolute;
+    width: 864px;
+    left: 325px;
+    top: 1560px;
+    background: var(--color-header2);
+    border: 7px solid var(--color-header2);
+    transform: rotate(0.14deg);
+}
+
+.download__resume a {
+    font-family: var(--font-family);
+    font-size: 25px;
+    text-decoration: underline;
+    padding: 0.5rem;
+    padding-top: 2rem;
+    color: white;
+}
+
+.download__resume a:hover {
+    color: var(--color-header);
+}
