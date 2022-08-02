@@ -1,0 +1,77 @@
+.web__experience {
+    display: flex;
+    
+}
+
+.web__experience-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+
+.web__experience-content div {
+    position: absolute;
+    width: 864px;
+    left: 424px;
+    top: 730px;
+    background: var(--color-header2);
+    border: 7px solid var(--color-header2);
+    transform: rotate(0.14deg);
+}
+
+.web__experience-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size:  62px;
+    line-height: 75px;
+    letter-spacing: -0.04rem;
+}
+
+.web__experience-content h2 {
+    width: 703px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    text-align: justify;
+    color:var(--color-text);
+    
+    margin-top: 1.5rem;
+  
+}
+
+.web__experience-content ul {
+    display: relative;
+    list-style: none;
+    
+
+} 
+
+
+
+.web__experience-content h2:hover ul.menu-drop1 {
+    
+    display: block;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+
+.menu-drop1 li::before, .menu-drop2 li::before {
+    content: "⯈";
+    position: relative;
+    
+}
+
+
+.exp2:hover ul.menu-drop2 {
+    display: block;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 18px;
+}
