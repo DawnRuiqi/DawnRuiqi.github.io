@@ -1,22 +1,21 @@
 
 import React from 'react';
-
-import { Footer, Experience, Project, Contact, Header } from './containers';
-import { Resume, Navbar } from './components';
+import { sliderData } from './components/project/import';
+import { Navbar, Home, Experience, Works, Scroll, Footer } from './components';
 
 import './App.css';
+
 
 const App = () => (
   
   <div className="App">
-   <div className="gradient__bg">
+   <div className="contents">
       <Navbar />
-      <Header />
+      <Home />
+      <Scroll />
     </div>
     <Experience />
-    <Resume />
-    <Project />
-    <Contact />
+    <Works slides={sliderData} />
     <Footer />
   </div> 
 );
