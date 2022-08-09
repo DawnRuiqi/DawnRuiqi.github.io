@@ -41,7 +41,7 @@ function Works({slides}) {
                   <div className='slide-text'>
                     <h2 className='slide-heading'>{slide.heading}</h2>
                     <p className='slide-text'>{slide.desc}</p>
-                    <a href='https://github.com/DawnRuiqi/portweb'>Github</a>
+                    <a href='https://github.com/DawnRuiqi/portweb.git'>Github</a>
                   </div>
                   </>
                   
