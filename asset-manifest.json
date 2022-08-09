@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portweb/static/css/main.8f9b8fc8.css",
+    "main.js": "/portweb/static/js/main.a4ba9eaa.js",
+    "static/media/CV.pdf": "/portweb/static/media/CV.e0174652c934a29e755f.pdf",
+    "static/media/portweb.JPG": "/portweb/static/media/portweb.01ee84b59784ecd3ef97.JPG",
+    "index.html": "/portweb/index.html",
+    "main.8f9b8fc8.css.map": "/portweb/static/css/main.8f9b8fc8.css.map",
+    "main.a4ba9eaa.js.map": "/portweb/static/js/main.a4ba9eaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f9b8fc8.css",
+    "static/js/main.a4ba9eaa.js"
+  ]
+}
