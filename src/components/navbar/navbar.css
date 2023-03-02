@@ -1,39 +1,192 @@
-.navbar-main {
+.navbar {
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
-
+    position:fixed;
     
+    top:0;
+    left:0;
+    right:0;
+    z-index:99;
+    background-color: #D2A089;
+    padding: 2rem 6rem;
+
 }
 
 .navbar-heading {
     font-family: var(--font-family);
     color: white;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 116px;
     margin-left: 5px;
 }
 
-.navbar-heading h2 {
+.navbar-menu_container p {
+    color: #fff;
     font-family: var(--font-family);
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 18px;
+    line-height:  25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
 }
 
-.navbar-links {
+
+
+
+
+.navbar-links_container {
     display: flex;
     flex-direction: row;
+}
 
+
+
+.navbar-links_container p,
+.navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 26px;
+    line-height:  25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+
+.navbar-menu_container button {
+
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    line-height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
     
 }
 
-.navbar-links p {
-    font-family: var(--font-family);
-    margin: 0 3rem;
-    cursor: pointer;
-    font-weight: bold;
-    color: var(--color-nav);
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 43px;
+.navbar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
 }
+
+
+
+.navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: #976666/*following index.css footer*/;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right:  0;
+    margin-top: 1rem;
+    min-width: 200px;
+    border-radius: 5px;
+  
+}
+
+.navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.navbar-menu_container-links-sign {
+    display: none;
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    
+
+   
+}
+
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        
+        padding: 2rem 4rem;
+        
+    }
+   
+    .navbar-menu_container-links-sign {
+        display: flex;
+    }
+
+  
+
+}
+
+@media screen and (max-width: 550px) {
+    .navbar {
+        padding: 2rem;
+        
+    }
+    .navbar-menu {
+        display: flex;
+        right: 1rem;
+    }
+
+    .navbar-heading {
+        font-size: 28px;
+    }
+
+    .navbar-links p {
+        display: none;
+    }
+
+    .navbar-links-Menu {
+        display: flex;
+    }
+    .navbar-links_container {
+        display: none;
+    }
+
+    .navbar-menu_container {
+        top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+   
+    .navbar-menu {
+        display: flex;
+    }
+
+    .navbar-heading {
+        font-size: 28px;
+    }
+
+    .navbar-links p {
+        display: none;
+    }
+
+    .navbar-links-Menu {
+        display: flex;
+    }
+
+    .navbar-menu_container-links p {
+        font-size: 20px;
+    }
+    .navbar-menu_container {
+        top: 30px;
+        width: 40px;
+    }
+
+}
+
+/*All styles could be found on the figma design created */

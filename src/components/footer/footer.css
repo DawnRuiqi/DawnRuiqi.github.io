@@ -8,7 +8,7 @@
   }
   
   
-  .footer-content h1 {
+.footer-content h1 {
 
     font-family: var(--font-family);
     color: var(--color-subtext);
@@ -16,4 +16,97 @@
     font-size: 32px;
     line-height: 50px;
   
+}
+
+.footer-icons ul {
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+
+}
+
+.footer-icons a {
+  font-size: 24px;
+  font-family: var(--font-family);
+  color: var(--color-subtext);
+}
+
+a.highlight {
+  
+  color: var(--color-jobTitle);
+  font-weight: 900;
+}
+
+.linkedin {
+      color: #4BA1FF;
+}
+
+.github {
+ color: black;
+}
+
+.email {
+  color: #DC747D;
+}
+
+@media screen and (max-width: 1050px) {
+  .footer-content h1 {
+    font-size: 44px;
+    justify-content: center;
+    text-align: center;
+    right: 3rem;
   }
+
+  .footer-icons a {
+    font-size: 44px;
+  }
+
+
+}
+
+@media screen and (max-width: 700px) {
+  .footer-content h1 {
+    font-size: 34px;
+    justify-content: center;
+    text-align: center;
+    right: 3rem;
+  }
+
+  .footer-icons a {
+    font-size: 34px;
+  }
+
+
+}
+
+@media screen and (max-width: 500px) {
+  .footer-content h1 {
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+    right: 3rem;
+  }
+
+  .footer-icons a {
+    font-size: 24px;
+  }
+
+
+}
+
+@media screen and (max-width: 320px) {
+  .footer-content h1 {
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    right: 3rem;
+  }
+
+  .footer-icons a {
+    font-size: 14px;
+  }
+
+
+}

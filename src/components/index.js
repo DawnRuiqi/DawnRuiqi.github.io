@@ -4,3 +4,4 @@ export { default as Experience } from './experience/Experience';
 export { default as Works } from './project/Works';
 export { default as Scroll } from './scroll/Scroll';
 export { default as Footer } from './footer/Footer';
+export { default as Article } from './article/Article';

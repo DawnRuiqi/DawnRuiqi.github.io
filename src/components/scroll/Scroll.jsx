@@ -22,7 +22,7 @@ function Scroll() {
           </div>
           <div className="email-box">
             
-            <li><a href="mailto:tayruiqi99@gmail.com"><HiOutlineMail/><openMyWindow/></a></li>
+            <li><a href="mailto:tayruiqi99@gmail.com"><HiOutlineMail/></a></li>
             
           </div>
           <div className="resume-box">

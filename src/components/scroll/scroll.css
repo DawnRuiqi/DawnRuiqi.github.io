@@ -82,3 +82,21 @@
 .resume-box a {
     color: white;
 }
+
+@media screen and (max-width: 320px) {
+    
+    .scroll-list{
+        display: none;
+    }
+    
+    
+}
+
+@media screen and (max-width: 500px) {
+    
+    .scroll-list{
+        display: none;
+    }
+    
+    
+}
