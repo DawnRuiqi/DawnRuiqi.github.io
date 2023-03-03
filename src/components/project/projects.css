@@ -1,7 +1,6 @@
 .project {
   display: flex;
   flex-direction: column;
-
 }
 
 .project-heading {
@@ -17,8 +16,6 @@
   font-weight: 800;
   font-size: 96px;
   line-height: 116px;
-
-
 }
 
 .project-container {
@@ -30,8 +27,6 @@
 .project-container__groupA {
   flex: 0.75;
   margin-right: 2rem;
-
-
 }
 
 .project-container__groupB {
@@ -39,20 +34,15 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  
-  
-
 }
 
 @media screen and (max-width: 990px) {
   .project-container {
       flex-direction: column-reverse;
-
   }
 
   .project-container__groupA {
       margin: 2rem 0;
-
   }
 
   .project-container__groupA .project-container__article {

@@ -7,7 +7,6 @@ const Works=() => {
   
   return (
     <div className='project section__padding' id='projects'>
-      
         <div className='project-heading'>
             <h1>Projects</h1>
 
@@ -20,7 +19,6 @@ const Works=() => {
         </div>
     </div>
 )
-  
 }
 
 export default Works

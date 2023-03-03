@@ -1,6 +1,5 @@
 .experience-main {
     display: flex;
-   
 }
 
 
@@ -10,7 +9,6 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    
 }
 
 
@@ -20,7 +18,6 @@
     font-weight: 800;
     font-size: 96px;
     line-height: 116px;
-
 }
 
 .experience-content p {
@@ -30,7 +27,6 @@
     font-weight: 800;
     font-size: 24px;
     line-height: 29px;
-    
 }
 
 .experience-content h2 {
@@ -40,15 +36,11 @@
     font-size: 32px;
     line-height: 40px;
     padding-top: 2rem;
-
-   
 }
 
 .experience-content ul   {
-   
     display: none;
     list-style: none;
-    
 }
 
 
@@ -61,15 +53,11 @@
     font-size: 22px;
     line-height: 40px;
      color: #A32D50;
-   
-
-    
 }
 
 .exp2 {
     padding-top: 10rem;
     padding-bottom: 5rem;
-   
 }
 
 .exp3 {
@@ -83,10 +71,8 @@
     color: var(--color-arrow);
     display: inline-block;
     width: 2rem;
-    
-    
-    
 }
+
 @media screen and (max-width: 1300px) {
     .experience-title h1 {
         font-size: 80px;

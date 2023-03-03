@@ -15,7 +15,6 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 50px;
-  
 }
 
 .footer-icons ul {
@@ -24,7 +23,6 @@
     display: flex;
     flex-direction: row;
    justify-content: space-evenly;
-
 }
 
 .footer-icons a {
@@ -62,8 +60,6 @@ a.highlight {
   .footer-icons a {
     font-size: 44px;
   }
-
-
 }
 
 @media screen and (max-width: 700px) {
@@ -77,8 +73,6 @@ a.highlight {
   .footer-icons a {
     font-size: 34px;
   }
-
-
 }
 
 @media screen and (max-width: 500px) {
@@ -92,8 +86,6 @@ a.highlight {
   .footer-icons a {
     font-size: 24px;
   }
-
-
 }
 
 @media screen and (max-width: 320px) {
@@ -107,6 +99,4 @@ a.highlight {
   .footer-icons a {
     font-size: 14px;
   }
-
-
 }

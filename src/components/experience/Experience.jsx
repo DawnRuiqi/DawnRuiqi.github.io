@@ -7,7 +7,6 @@ function Experience() {
       <div className="experience-content">
         <div className="experience-title">
           <h1>Experience</h1>
-         
         </div>
 
         <div className="exp1">
@@ -18,6 +17,7 @@ function Experience() {
               <li>Conduct testing to evaluate the capability of the software and determines the expected results for customers</li>
           </ul>
         </div>  
+
         <div className="exp2">
           <h2>Skill Samurai Singapore | Associate Teacher</h2>
             <ul className='menu-drop2'>
@@ -27,6 +27,7 @@ function Experience() {
               <li>Work with students to help them understand the codes</li>
             </ul>
         </div>
+        
         <div className="exp3">
         <h2>Endofotonics | Software Engineering Intern </h2>
           <ul className='menu-drop3'>

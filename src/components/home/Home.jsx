@@ -25,15 +25,9 @@ function Home() {
               <a href={CV} target='_blank' rel="noreferrer">
                 <span className="linking"></span>
               </a>
-              
             </div>
            </div>
-           
       </div>
-
-
-
-
     </div>
   )
 }

@@ -24,21 +24,18 @@ return (
           <Menu />
           </div>
       
-     
-      
       <div className='navbar-menu'>
           {toggleMenu 
           ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)}/>
           : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} /*"?" = if. ":" = else *//>
       }    
-      
+
        {toggleMenu /*Only if the variable is true*/ && ( 
           <div className='navbar-menu_container scaple-up-center'>
               <div className='navbar-menu_container-links'>
               <Menu />
               </div> 
            </div>
-
        )}
      </div>
   </div>

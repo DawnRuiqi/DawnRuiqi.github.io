@@ -24,7 +24,6 @@
     justify-content: space-between;
     padding: 1rem 1.5rem;
     height: 100%;
-
 }
 
 .project-container__article-content p {
@@ -33,7 +32,6 @@
     font-weight: bold;
     line-height: 35px;
     color: white;
-    
 }
 
 
@@ -65,7 +63,6 @@
 
 
 .project-container__article-content p:last-child /*cursor allow it to click */ {
-
     cursor: pointer;
 }
 

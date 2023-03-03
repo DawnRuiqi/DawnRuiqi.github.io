@@ -2,7 +2,6 @@
     position:fixed;
     list-style: none;
     display: flex;
-    
    bottom: 0%;
    right: 5%;
    flex-direction: column;
@@ -10,12 +9,10 @@
     
 }
 .social-lists div {
-
     margin: 1rem;
 }
 
 .scroll-list li {
-    
     font-size: 30px;
     line-height: 60px;
    
@@ -23,13 +20,10 @@
 }
 
 .linkedin-box  {
-    
     width: 50px;
     height: 50px;
     border-radius: 20%;
- 
     box-sizing: border-box;
-    
     text-align: center;
     background: #4BA1FF;
 }
@@ -42,9 +36,7 @@
     width: 50px;
     height: 50px;
     border-radius: 20%;
- 
     box-sizing: border-box;
-    
     text-align: center;
     background: black;
 }
@@ -57,9 +49,7 @@
     width: 50px;
     height: 50px;
     border-radius: 20%;
- 
     box-sizing: border-box;
-    
     text-align: center;
     background: #DC747D;
 }
@@ -72,9 +62,7 @@
     width: 50px;
     height: 50px;
     border-radius: 20%;
- 
     box-sizing: border-box;
-    
     text-align: center;
     background: var(--color-title);
 }
@@ -84,16 +72,12 @@
 }
 
 @media screen and (max-width: 320px) {
-    
     .scroll-list{
         display: none;
     }
-    
-    
 }
 
 @media screen and (max-width: 500px) {
-    
     .scroll-list{
         display: none;
     }

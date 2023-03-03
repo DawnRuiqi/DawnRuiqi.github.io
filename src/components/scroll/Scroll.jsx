@@ -10,7 +10,6 @@ import "./scroll.css"
 function Scroll() {
 
   return (
-  
       <div className="scroll-icons">
       <div className="scroll-list">
         <ul className="social-lists">

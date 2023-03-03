@@ -24,7 +24,6 @@
     to {
         opacity: 1;
       }
-   
 }
 
 .home-title h1 {
@@ -40,7 +39,6 @@
     color: var(--color-title);
 }
 
-
 .home-bio p {
     display: flex;
     flex-direction: row;
@@ -51,11 +49,8 @@
     line-height: 43px;
     letter-spacing: 2px;
     color: white;
-    text-align: justify;
-    
+    text-align: justify;    
 }
-
-
 
 .home-bio  span{
     font-family: var(--font-family);
@@ -92,7 +87,6 @@
     color: var(--color-nav);
     mix-blend-mode: hard-light;
     padding-top: 1rem;
-   
 }
 
 .linking {
@@ -104,8 +98,6 @@
     z-index: 1;
 }
 
-
-
 @media screen and (max-width: 1050px) {
 
     .home-bio p {
@@ -114,12 +106,10 @@
 
     .home-main-content {
         margin: 0 0 3rem;
-    }
-    
+    }   
 }
 
 @media screen and (max-width: 970px) {
-
     .home-title h1 {
         font-size: 100px;
         letter-spacing: 2px;
@@ -159,7 +149,6 @@
         color: var(--color-nav);
         mix-blend-mode: hard-light;
         padding-top: 1rem;
-       
     }
     
     .linking {
@@ -170,9 +159,7 @@
         left: 0;
         z-index: 1;
     }
-
 }
-
 
 @media screen and (max-width: 770px) {
 
@@ -226,9 +213,7 @@
         left: 0;
         z-index: 1;
     }
-
 }
-
 
 @media screen and (max-width: 500px) {
 
@@ -251,8 +236,7 @@
 
     .home-bio span {
         font-size: 25px;
-    }
-    
+    }   
 }
 
 @media screen and (max-width: 320px) {
@@ -295,8 +279,7 @@
         text-align: center;
         color: var(--color-nav);
         mix-blend-mode: hard-light;
-        padding-top: 1rem;
-       
+        padding-top: 1rem;  
     }
     
     .linking {
@@ -307,7 +290,6 @@
         left: 0;
         z-index: 1;
     }
-
 }
 
 
