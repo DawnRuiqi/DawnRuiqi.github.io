@@ -1,15 +1,15 @@
 {
-  "files": {
-    "main.css": "/portweb/static/css/main.8f9b8fc8.css",
-    "main.js": "/portweb/static/js/main.a4ba9eaa.js",
-    "static/media/CV.pdf": "/portweb/static/media/CV.e0174652c934a29e755f.pdf",
-    "static/media/portweb.JPG": "/portweb/static/media/portweb.01ee84b59784ecd3ef97.JPG",
-    "index.html": "/portweb/index.html",
-    "main.8f9b8fc8.css.map": "/portweb/static/css/main.8f9b8fc8.css.map",
-    "main.a4ba9eaa.js.map": "/portweb/static/js/main.a4ba9eaa.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.8f9b8fc8.css",
-    "static/js/main.a4ba9eaa.js"
-  ]
+  "main.css": "/portweb/static/css/main.84ab319e.chunk.css",
+  "main.js": "/portweb/static/js/main.f2fd8aea.chunk.js",
+  "main.js.map": "/portweb/static/js/main.f2fd8aea.chunk.js.map",
+  "static/js/1.e86b8794.chunk.js": "/portweb/static/js/1.e86b8794.chunk.js",
+  "static/js/1.e86b8794.chunk.js.map": "/portweb/static/js/1.e86b8794.chunk.js.map",
+  "runtime~main.js": "/portweb/static/js/runtime~main.26984bac.js",
+  "runtime~main.js.map": "/portweb/static/js/runtime~main.26984bac.js.map",
+  "static/media/ResumeTayRuiQi.pdf": "/portweb/static/media/ResumeTayRuiQi.7c5f956e.pdf",
+  "static/media/projectFirst.png": "/portweb/static/media/projectFirst.6d97f3f8.png",
+  "static/css/main.84ab319e.chunk.css.map": "/portweb/static/css/main.84ab319e.chunk.css.map",
+  "index.html": "/portweb/index.html",
+  "precache-manifest.39542b9b872d46dfec1bcc3b72d5e1b7.js": "/portweb/precache-manifest.39542b9b872d46dfec1bcc3b72d5e1b7.js",
+  "service-worker.js": "/portweb/service-worker.js"
 }
