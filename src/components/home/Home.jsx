@@ -1,5 +1,5 @@
 import React from "react";
-import CV from '../../assets/CV.pdf';
+import Resume from '../../assets/ResumeTayRuiQi.pdf';
 
 import "./home.css"
 
@@ -22,7 +22,7 @@ function Home() {
       <div className="home-resume">
             <div className="rectangle">
             <p>View Resume!</p>
-              <a href={CV} target='_blank' rel="noreferrer">
+              <a href={Resume} target='_blank' rel="noreferrer">
                 <span className="linking"></span>
               </a>
             </div>

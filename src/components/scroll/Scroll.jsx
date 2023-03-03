@@ -1,5 +1,5 @@
 import React from "react";
-import CV from '../../assets/CV.pdf';
+import Resume from '../../assets/ResumeTayRuiQi.pdf';
 import { FaGithub, FaLinkedinIn} from "react-icons/fa";
 import {HiOutlineMail} from "react-icons/hi";
 import {BsFileEarmarkText} from "react-icons/bs";
@@ -25,7 +25,7 @@ function Scroll() {
             
           </div>
           <div className="resume-box">
-            <li><a href={CV} target='_blank' rel="noreferrer"><BsFileEarmarkText/></a></li>
+            <li><a href={Resume} target='_blank' rel="noreferrer"><BsFileEarmarkText/></a></li>
           </div> 
         </ul>
       </div>
