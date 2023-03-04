@@ -13,20 +13,20 @@
     font-family: var(--font-family);
     color: var(--color-subtext);
     font-weight: 400;
-    font-size: 32px;
+    font-size: 18px;
     line-height: 50px;
 }
 
 .footer-icons ul {
     list-style: none;
-    font-size: 30px;
+    font-size: 15px;
     display: flex;
     flex-direction: row;
    justify-content: space-evenly;
 }
 
 .footer-icons a {
-  font-size: 24px;
+  font-size: 18px;
   font-family: var(--font-family);
   color: var(--color-subtext);
 }

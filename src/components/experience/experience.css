@@ -179,7 +179,7 @@
     }
 
     .exp2 {
-        padding-top: 15rem;
+        padding-top: 18rem;
     }
 
     .exp2 h2 {
@@ -249,60 +249,3 @@
         width: 250px;
     }
 }
-
-
-
-/*
-@media screen and (max-width: 320px) {
-    .experience-content ul {
-        font-size: 16px;
-        width: 1000px;
-    }
-
-    .exp2 {
-        padding-top: 14rem;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    
-
-    .experience-main{
-        display: block;
-        position: relative;
-        bottom: 6rem;
-    }
-
-    .experience-title {
-        padding-bottom: 1rem;
-    }
-
-    .experience-title h1 {
-        
-        font-size: 45px;
-        text-align: center;
-    }
-
-    .experience-title p {
-        text-align: center;
-        font-size: 20px;
-    }
-
-    .exp1 h2, .exp2 h2, .exp3 h2 {
-        font-size: 24px;
-        width: 250px;
-    }
-
-    .exp1 li, .exp2 li, .exp3 li {
-        
-        font-size: 16px;
-        width: 260px;
-        line-height: 20px;
-        margin: 15px 0;
-        
-    }
-
-    .exp3 {
-        margin-top: 1rem;
-    }
-} */
